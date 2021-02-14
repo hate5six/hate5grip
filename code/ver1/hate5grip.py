@@ -7,7 +7,7 @@ app = Flask(__name__)
 ip_addr="localhost"
 
 @app.route("/hate5grip", methods=["POST"])
-def switch():
+def cut():
     angle = request.args.get("angle")
     print("Angle:", angle)
     keyboard.press_and_release(angle)
