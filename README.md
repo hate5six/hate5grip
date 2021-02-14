@@ -21,7 +21,7 @@ The following dependencies are required:
   </ul> 
 
 <h2>On Computer Running OBS</h2>
-Change the variable <b>IP_ADDR</b> in <b>hate5grip.py</b> to the local area network IP of the computer. From a command prompt, run <b>python hate5grip.py</b> which will launch the server and listen for POST requests from the hate5grip remote. Minimize the console and be sure that OBS is the active window/program on the screen. In OBS, go to Settings and assign hotkeys '1', '2', '3', '4' to the appropriate Scenes. 
+Change the variable <b>ip_addr</b> in <b>hate5grip.py</b> to the local area network IP of the computer. From a command prompt, run <b>python hate5grip.py</b> which will launch the server and listen for POST requests from the hate5grip remote. Minimize the console and be sure that OBS is the active window/program on the screen. In OBS, go to Settings and assign hotkeys '1', '2', '3', '4' to the appropriate Scenes. 
 
 <h2>On Remote</h2>
-SSH into the Raspberry Pi and install the gpiozero dependency. Configure the RPi to connect to the same 2.4GHz WiFi network as the computer running OBS. Change the variable <b>IP_ADDR</b> in <b>remote.py</b> to the local area network UP of the computer. Modify the crontab on the RPi to automatically run <b>remote.py</b> in the background upon boot.
+SSH into the Raspberry Pi and install the gpiozero dependency. Configure the RPi to connect to the same 2.4GHz WiFi network as the computer running OBS. Change the variable <b>ip_addr</b> in <b>remote.py</b> to the local area network IP of the computer. Modify the crontab on the RPi to automatically run <b>remote.py</b> in the background upon boot.
