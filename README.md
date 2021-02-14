@@ -25,3 +25,7 @@ Change the variable <b>ip_addr</b> in <b>hate5grip.py</b> to the local area netw
 
 <h2>On Remote</h2>
 SSH into the Raspberry Pi and install the gpiozero dependency. Configure the RPi to connect to the same 2.4GHz WiFi network as the computer running OBS. Change the variable <b>ip_addr</b> in <b>remote.py</b> to the local area network IP of the computer. Modify the crontab on the RPi to automatically run <b>remote.py</b> in the background upon boot.
+
+<h2>Grip Wiring</h2>
+Wire the 4 buttons on the grip as follows using GPIO pins 6, 13, 19, 26:
+<img src="https://github.com/hate5six/hate5grip/blob/main/wiring.jpg?raw=true" "width:25%" height="25%"/>
