@@ -4,6 +4,8 @@
 
 The hate5grip is a DIY wireless camera angle switcher using a Raspberry Pi Zero that sends HTTP POST requests to a Flask server running adjacent to OBS, which simulates the pressing of keys to initiate an angle switch. The grip can be used more generally as just a wireless macro keypad as needed. Code for the remote and web server and the .stl files for 3D printing to come. For a full breakdown, step by step guide and Q+A check out the livestream tutorial I'll be hosting about this build over at patreon.com/hate5six. <b>Specific questions can be DM'd to me on there.</b>
 
+This is a work in progress. Build and use at your own risk.
+
 <h1>Installation:</h1>
 
 There are two scripts (tested on Python 3.9) in this repository: 
