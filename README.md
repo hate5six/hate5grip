@@ -27,7 +27,7 @@ Change the variable <b>ip_addr</b> in <b>hate5grip.py</b> to the local area netw
 SSH into the Raspberry Pi and install the gpiozero dependency. Configure the RPi to connect to the same 2.4GHz WiFi network as the computer running OBS. Change the variable <b>ip_addr</b> in <b>remote.py</b> to the local area network IP of the computer. Modify the crontab on the RPi to automatically run <b>remote.py</b> in the background upon boot.
 
 <h2>3D Printing</h2>
-Coming soon...
+.stl files are available for the hate5grip and custom button mount. Depending on your printer you may need to make adjustments in order to make the components fit together, or just file down as needed after printing.
 
 <h2>Grip Wiring</h2>
 Wire the 4 buttons on the grip as follows using GPIO pins 6, 13, 19, 26:
